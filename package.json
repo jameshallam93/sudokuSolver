@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "jest --verbose --coverage --watch-all",
-    "start": "tsc && node index.js",
+    "start": "tsc && node ./build/index.js",
     "lint": "npx eslint"
   },
   "author": "James Hallam",

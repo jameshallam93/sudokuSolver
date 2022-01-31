@@ -67,8 +67,8 @@ class SudokuSolver {
 	}
 	isValidNumberPlacement(row: number, col: number, number: number) {
 		return (this.isValidRow(row, number)
-            && this.isValidCollumn(col, number)
-            && this.isValidBox(row, col, number));
+			&& this.isValidCollumn(col, number)
+			&& this.isValidBox(row, col, number));
 	}
 	updateBoard(row: number, col: number, num: number) {
 		this.board[row][col] = num;
